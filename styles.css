@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background: rgb(38, 43, 49);
   color: #f4f4f4;
   overflow: hidden;
 }
@@ -16,7 +16,12 @@ body {
   min-height: 100vh;
   margin: 0px auto;
   position: relative;
-  background-color: #18202b;
+  background: rgb(38, 43, 49);
+  background: linear-gradient(
+    132deg,
+    rgba(38, 43, 49, 1) 0%,
+    rgba(0, 0, 0, 0.9726015406162465) 50%
+  );
   padding: 15px 10px;
 }
 .nav_flex {
@@ -35,7 +40,7 @@ body {
 }
 
 .nav_menu {
-  margin-top: 12px;
+  margin-top: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
